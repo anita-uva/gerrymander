@@ -1,7 +1,7 @@
 -- Create tables
 begin transaction;
-CREATE TABLE IF NOT EXISTS precinct (STATE TEXT, PRECINCT TEXT, DISTRICT TEXT, PARTY TEXT, VOTERS INT);
-CREATE TABLE IF NOT EXISTS party (id TEXT, name TEXT);
+CREATE TABLE IF NOT EXISTS precinct (STATE TEXT collate nocase, PRECINCT TEXT collate nocase, DISTRICT TEXT collate nocase, PARTY TEXT collate nocase, VOTERS INT);
+CREATE TABLE IF NOT EXISTS party (id TEXT collate nocase, name TEXT collate nocase);
 commit;
 
 -- create a party table to standardize the party values from multiple sources
