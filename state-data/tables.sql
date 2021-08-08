@@ -12,6 +12,7 @@ insert into party VALUES ("LBT", "Libertarian");
 insert into party VALUES ("GRN", "Green");
 insert into party VALUES ("OTH", "Other");
 insert into party VALUES ("IND", "Independent");
+insert into party VALUES ("AKI", "Alaska Independent");
 insert into party VALUES ("CONST", "Constitution");
 insert into party VALUES ("REFORM", "Reform");
 insert into party VALUES ("SOCWK", "Socialist");
